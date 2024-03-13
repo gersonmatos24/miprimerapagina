@@ -52,11 +52,6 @@ body main p{
     text-align: center;
 }
 
-.greeting{
-    color: red;
-}
-
-
 .acerca-imagen{
     width: 50%;
 }
@@ -68,9 +63,14 @@ body main p{
 .seccion-2{
     width: 100%;
     height: 700px;
+   
+}
+.imagen-sola{
     background-image: url(imagenes/christopher-gower-m_HRfLhgABo-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
 }
 
 /*TARJETAS*/
@@ -279,7 +279,6 @@ footer .icon.icon-tabler.icon-tabler-qrcode-off{
     }
 
     .acerca { 
-        background-color: #ffff56;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -296,45 +295,19 @@ footer .icon.icon-tabler.icon-tabler-qrcode-off{
         display: flex;
         justify-content: center;
     }
-    
-    /*TARJETAS*/
-    .contenedor-tarjetas{
-        max-width: 100%;
-        height: 2000px;
-        background-color: blueviolet;
-         
-     
+
+    .seccion-2{
+        padding-top: 1rem;
+        width: 100%;
+        height: 200px;
     }
-    section h2{
-        text-align: center;
-        margin: 0;
-        padding: 1rem 0;
-    }   
+    .imagen-sola{
+        background-image: url(imagenes/soroush-karimi-crjPrExvShc-unsplash.jpg);
+    }
 
     .tarjeta{
-        width: 100%;
-        background-color: aqua;
-        height: 600px;
-        margin: 0;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 0;
     }
 
-    .img-tarjeta{
-        width: 100%;
-    }
-
-    .tarjeta1,
-    .tarjeta2,
-    .tarjeta3 {
-        background-color:  #ffff56;
-        text-align: center;
-        width: 500rem;
-        height: 500px;
-        border-radius: 3%;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-
-    }
 }
