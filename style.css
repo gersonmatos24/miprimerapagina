@@ -36,7 +36,6 @@ header nav ul{
 /*MAIN*/
 .seccion-1{
     padding-top: 1rem;
-    background-color: aqua;
     
 }
 .acerca { 
@@ -48,16 +47,19 @@ header nav ul{
 }
 
 .acerca-de{
-    background-color: aqua;
     width: 50%;
 }
 body main p{ 
     text-align: center;
 }
 
+.greeting{
+    color: red;
+}
+
+
 .acerca-imagen{
     width: 50%;
-    background-color: blue;
 }
 .img1{
     max-width: 250PX;
@@ -110,9 +112,6 @@ section h2{
 }
 section h2{
     margin-left: 1rem;
-}
-section a {
-    color: blue;
 }
 /*FORMULARIO*/
 .form-header {
